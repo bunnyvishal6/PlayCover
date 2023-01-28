@@ -176,15 +176,7 @@ class PlayApp: BaseApp {
         PlayApp.MALICIOUS_APPS.contains(info.bundleIdentifier)
     }
     static let PROHIBITED_APPS = [
-        "com.activision.callofduty.shooter",
-        "com.ea.ios.apexlegendsmobilefps",
-        "com.garena.game.codm",
-        "com.tencent.tmgp.cod",
-        "com.tencent.ig",
-        "com.pubg.newstate",
-        "com.tencent.tmgp.pubgmhd",
-        "com.dts.freefireth",
-        "com.dts.freefiremax"
+        "com.activision.callofduty.shooter"
 ]
     static let MALICIOUS_APPS = [
         "com.zhiliaoapp.musically"
